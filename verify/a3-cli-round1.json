@@ -1,0 +1,122 @@
+[
+  {
+    "description": "Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure. ",
+    "full_name": "bradAGI/awesome-cli-coding-agents",
+    "stars": 1491,
+    "url": "https://github.com/bradAGI/awesome-cli-coding-agents"
+  },
+  {
+    "description": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
+    "full_name": "golutra/golutra",
+    "stars": 3878,
+    "url": "https://github.com/golutra/golutra"
+  },
+  {
+    "description": "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions",
+    "full_name": "pacifio/cersei",
+    "stars": 466,
+    "url": "https://github.com/pacifio/cersei"
+  },
+  {
+    "description": "CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️",
+    "full_name": "moazbuilds/CodeMachine-CLI",
+    "stars": 2517,
+    "url": "https://github.com/moazbuilds/CodeMachine-CLI"
+  },
+  {
+    "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+    "full_name": "cobusgreyling/loop-engineering",
+    "stars": 11819,
+    "url": "https://github.com/cobusgreyling/loop-engineering"
+  },
+  {
+    "description": "Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.",
+    "full_name": "ModelEngine-Group/nexent",
+    "stars": 6235,
+    "url": "https://github.com/ModelEngine-Group/nexent"
+  },
+  {
+    "description": "Open-source, self-hosted AI vulnerability research tool that orchestrates agents to find and validate security issues in code.",
+    "full_name": "Kritt-ai/open-kritt",
+    "stars": 2440,
+    "url": "https://github.com/Kritt-ai/open-kritt"
+  },
+  {
+    "description": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
+    "full_name": "zhnt/loushang",
+    "stars": 2104,
+    "url": "https://github.com/zhnt/loushang"
+  },
+  {
+    "description": "A live, local-first dashboard for Claude Code sessions: project graph of agents, tokens, tool feed, replay, alerts. Plugin + terminal UI + MCP server. Includes the AOS-1 agent orchestration spec.",
+    "full_name": "tomtomsatnav/agent-orchestration-standard",
+    "stars": 104,
+    "url": "https://github.com/tomtomsatnav/agent-orchestration-standard"
+  },
+  {
+    "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
+    "full_name": "hoangsonww/Claude-Code-Agent-Monitor",
+    "stars": 1198,
+    "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor"
+  },
+  {
+    "description": "Multi-agent cryptocurrency intelligence system built with Claude Code. 6 AI agents, 66 MCP tools, Agent Teams, zero orchestration code.",
+    "full_name": "hugoguerrap/crypto-claude-desk",
+    "stars": 123,
+    "url": "https://github.com/hugoguerrap/crypto-claude-desk"
+  },
+  {
+    "description": "Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.",
+    "full_name": "gadievron/raptor",
+    "stars": 4041,
+    "url": "https://github.com/gadievron/raptor"
+  },
+  {
+    "description": "AI coding workstation: OpenCode + Claude subscription support + 30+ tools + headless browser + multi-agent orchestration",
+    "full_name": "CoderLuii/HolyCode",
+    "stars": 89,
+    "url": "https://github.com/CoderLuii/HolyCode"
+  },
+  {
+    "description": "Self-hosted AI assistant with tool use, multi-agent orchestration, coding copilot and a lightweight Flask + vanilla JS stack.",
+    "full_name": "NiuTrans/ToFu",
+    "stars": 151,
+    "url": "https://github.com/NiuTrans/ToFu"
+  },
+  {
+    "description": "Comprehensive, community-curated directory of autonomous AI agents, frameworks, platforms, and automation tools for developers and enterprises. Explore the latest in multi-agent collaboration, coding automation, workflow orchestration, and domain-specific AI assistants.",
+    "full_name": "rembertdesigns/AI-Agent-Platforms-Automation-Tools",
+    "stars": 27,
+    "url": "https://github.com/rembertdesigns/AI-Agent-Platforms-Automation-Tools"
+  },
+  {
+    "description": "Cross-LLM sub-agent orchestration as an Agent Skills. Route tasks to Codex, Claude Code, Grok, GLM, Kimi, Cursor, Gemini, MinMax, OpenCode, Pi, or Command Code from any compatible tool.",
+    "full_name": "shinpr/sub-agents-skills",
+    "stars": 101,
+    "url": "https://github.com/shinpr/sub-agents-skills"
+  },
+  {
+    "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+    "full_name": "josstei/maestro-orchestrate",
+    "stars": 489,
+    "url": "https://github.com/josstei/maestro-orchestrate"
+  },
+  {
+    "description": "A coding tool to orchestrate multiple coding agents",
+    "full_name": "band-ai/codeband",
+    "stars": 68,
+    "url": "https://github.com/band-ai/codeband"
+  },
+  {
+    "description": "A CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools (Claude Code, Gemini, Qwen, etc.) to communicate in shared rooms.",
+    "full_name": "kevinelliott/agentpipe",
+    "stars": 156,
+    "url": "https://github.com/kevinelliott/agentpipe"
+  },
+  {
+    "description": "Open-source self-hosted AI agent runtime and multi-agent framework for autonomous agent swarms. Agent memory, MCP tools, schedules, delegation, and 23+ LLM providers (Claude, GPT, Gemini, OpenRouter, Ollama). A practical Claude Code and LangChain alternative.",
+    "full_name": "swarmclawai/swarmclaw",
+    "stars": 710,
+    "url": "https://github.com/swarmclawai/swarmclaw"
+  }
+]

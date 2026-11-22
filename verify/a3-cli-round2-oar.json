@@ -1,0 +1,62 @@
+[
+  {
+    "description": "oar (Open Agent Runtime): programming interface for all agent harnesses",
+    "full_name": "botiverse/oar",
+    "stars": 694,
+    "url": "https://github.com/botiverse/oar"
+  },
+  {
+    "description": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
+    "full_name": "HarnessRouter/harnessrouter",
+    "stars": 4403,
+    "url": "https://github.com/HarnessRouter/harnessrouter"
+  },
+  {
+    "description": "An agentic interface and safety harness for safety-critical control systems",
+    "full_name": "als-apg/osprey",
+    "stars": 83,
+    "url": "https://github.com/als-apg/osprey"
+  },
+  {
+    "description": "The Higher Order Harness (HOH \"/oʊ/\" ), projected as a unified chat interface.",
+    "full_name": "longsurf-ai/endo",
+    "stars": 102,
+    "url": "https://github.com/longsurf-ai/endo"
+  },
+  {
+    "description": "A context harness for AI agents: all your scattered context — code, memory, docs, databases, SaaS — in one searchable, browsable, file-like interface.",
+    "full_name": "zilliztech/mfs",
+    "stars": 159,
+    "url": "https://github.com/zilliztech/mfs"
+  },
+  {
+    "description": "An open source agentic AI companion harness. Persistent identity, memory, adaptable to multiple interfaces. Many features, updated often, developer friendly.",
+    "full_name": "PsycherosAI/Psycheros",
+    "stars": 47,
+    "url": "https://github.com/PsycherosAI/Psycheros"
+  },
+  {
+    "description": "Local web UI for the pi coding agent — one directory per workspace, interface ported from deepseek-harness",
+    "full_name": "woxihejinghao/pi-web",
+    "stars": 18,
+    "url": "https://github.com/woxihejinghao/pi-web"
+  },
+  {
+    "description": "An open-source, cross-platform AI agent harness built in Rust, with a durable agent loop, native tools, and shared desktop and Web interfaces.",
+    "full_name": "123123213weqw/XHarness",
+    "stars": 16,
+    "url": "https://github.com/123123213weqw/XHarness"
+  },
+  {
+    "description": "An agent harness on top of Trigger.dev, wearing analytics as its first skin. Questions become interfaces.",
+    "full_name": "mcheemaa/rendi",
+    "stars": 9,
+    "url": "https://github.com/mcheemaa/rendi"
+  },
+  {
+    "description": "Ismail: A high bandwidth agentic interface. Includes Agentic DAW and Agentic VR stage with Evolvable Phone Interface. Have Claude or Codex produce and DJ music, jam with you, make sound effects and interactive soundscapes, movie scores, etc. A Recursive Modifiable Interface for coding measured instruments. It runs from within your harness.",
+    "full_name": "newsbubbles/ismail",
+    "stars": 20,
+    "url": "https://github.com/newsbubbles/ismail"
+  }
+]

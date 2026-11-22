@@ -1,3 +1,28 @@
+## Agent 使用路径（本 fork 新增）
+
+这是 `LaelLuo/FindMyRepo`（fork 自 `dotenv-live/FindMyRepo`）。上游 Web 应用依赖 MongoDB Atlas 向量索引 + 未随仓库分发的 43k 语料，公开 demo 也没有后端，因此这里新增一条**不依赖那些基础设施**的 agent 检索路径——面向「按意图找现成库，包括小众项目」：
+
+- **CLI（单轮搜索）**：`python -m finder search "<查询>" --limit 20 --json`。只依赖 Python 标准库 + 已登录的 `gh` CLI，不需模型、MongoDB、Gemini 或付费服务。
+- **Agent skill（多轮迭代发现）**：`skill/SKILL.md`，已部署到 `~/.agents/skills/gh-repo-finder` 与 `~/.claude/skills/gh-repo-finder`。它驱动 agent 从搜索结果描述里挑出陌生术语，用新术语再搜，以覆盖用户事先不知道名字的小众仓库。
+
+示例（找「用一个接口管住多种编码 agent」的库，事先不知道叫 oar）：
+
+```bash
+# 第 1 轮：宽搜，结果里会出现 "harnesses" 这个词
+python -m finder search "coding agent orchestration tool" --limit 20 --json
+
+# 第 2 轮：用学到的术语再搜，botiverse/oar 排第一
+python -m finder search "agent harnesses interface" --limit 10 --json
+```
+
+前提：`gh auth login` 已登录；GitHub 搜索认证额度约 30 次/分钟。
+
+**能力边界**：迭代发现覆盖面高但非穷尽——某仓库若完全不含任何被搜到的词，则找不到；结果也不按时效或热度排序。它是「先找有没有现成实现」的辅助手段，不是全站语义搜索引擎。
+
+以下为上游 FindMyRepo 原始说明。
+
+---
+
 <div align="center">
 
 # 🔎 FindMyRepo
