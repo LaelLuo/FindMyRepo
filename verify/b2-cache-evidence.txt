@@ -1,0 +1,13 @@
+=== run1 live ===
+[实时]
+=== record term ===
+已记录 1 个术语提示
+=== run2 same = cache ===
+[来自缓存]
+=== refresh keeps hint ===
+[实时]
+历史术语提示：harnesses
+=== json contract ===
+keys: ['full_name', 'description', 'stars', 'url']
+=== different limit = live ===
+[实时]

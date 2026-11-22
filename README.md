@@ -15,6 +15,18 @@ python -m finder search "coding agent orchestration tool" --limit 20 --json
 python -m finder search "agent harnesses interface" --limit 10 --json
 ```
 
+### 搜索结果缓存
+
+每次搜索的结果会自动存到本机缓存（Windows 下 `LOCALAPPDATA\gh-repo-finder\cache.sqlite3`，纯 Python 标准库，不写进项目仓库）：
+
+- 同一查询再次搜索：直接返回缓存，输出首行标 `[来自缓存]`；超过 7 天标「可能过期」。
+- 新查询：只显示相关的「历史术语提示」作为线索，不会把旧结果当新结果返回。
+- `--refresh` 强制重新搜索并更新缓存；刷新失败时保留旧缓存。
+- `python -m finder cache path|clear|export` 查看位置、清空、导出 JSON。
+- 缓存目录不可写时自动降级为实时搜索，搜索本身不受影响。
+
+`--json` 仍是纯结果数组（每项只有 full_name/description/stars/url），是否来自缓存及历史术语写在 stderr 的 `# ...` 行，方便脚本复用。
+
 前提：`gh auth login` 已登录；GitHub 搜索认证额度约 30 次/分钟。
 
 **能力边界**：迭代发现覆盖面高但非穷尽——某仓库若完全不含任何被搜到的词，则找不到；结果也不按时效或热度排序。它是「先找有没有现成实现」的辅助手段，不是全站语义搜索引擎。
